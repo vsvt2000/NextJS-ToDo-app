@@ -126,7 +126,7 @@ Update(task)
   return (
     <>
     <div className='py-[3%]'>
-        <p>To-do List in todos</p>
+        <h3 className='text-6xl font-medium'>Simple ToDo list </h3>
         <div className='flex flex-row justify-center py-[2%]'>
             <input type="text" name="title" value={task.title} onChange={(e)=>setTask({title:e.target.value,status:false})}></input>
             <button className="bg-green-500 rounded-full m-[1%]" onClick={(e)=>handleAdd(task)}><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 ">
